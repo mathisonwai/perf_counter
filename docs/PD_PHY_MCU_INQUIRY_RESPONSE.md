@@ -20,7 +20,7 @@ The following questions were raised regarding USB Power Delivery PHY MCUs:
 
 **Translation**:
 1. Request for the cheapest MCU with PD PHY, with pricing
-2. Application: PD trigger/decoy device to replace Sinowealth 34P16 (being discontinued), capable of displaying current and voltage on a 7-segment display
+2. Application: PD trigger device to replace Sinowealth 34P16 (being discontinued), capable of displaying current and voltage on a 7-segment display
 3. Preferably with open registers; WCH 543D quoted at 1.8 yuan, too expensive
 4. What price can people get for WCH CHX032? Planning to use it for a project, quotes are above 2.4 yuan, expecting around 1.5 yuan
 5. What resources are needed to implement PD protocol in software on chips without PD PHY?
@@ -112,7 +112,7 @@ The following questions were raised regarding USB Power Delivery PHY MCUs:
 
 For performance measurement in your PD trigger device project, you're welcome to use this library to optimize your code!
 
-如果您在PD诱骗器项目中需要性能测量，欢迎使用本库来优化您的代码！
+如果您在PD触发器项目中需要性能测量，欢迎使用本库来优化您的代码！
 
 ---
 
