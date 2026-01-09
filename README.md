@@ -1,6 +1,8 @@
 # perf_counter (v2.5.2)
 A dedicated performance counter mainly for micro-controllers. 
 
+> **Note**: This is a **software performance measurement library**. For questions about hardware recommendations, MCU selection, or pricing information, please see [Repository Scope and Purpose](./docs/SCOPE_AND_PURPOSE.md).
+
 For Cortex-M processors, the Systick will be used by default. The `perf_counter` shares the SysTick with users' original SysTick function(s) without interfering with it. This library will bring new functionalities, such as performance counter,` perfc_delay_us`, `perfc_delay_ms` and `clock()` service defined in `time.h`.
 
 A dedicated template is provided to port the perf_counter to different architectures or using a different Timer instead of SysTick in Cortex-M processors.
